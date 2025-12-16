@@ -1,0 +1,39 @@
+library(tidyverse)
+
+# Load cleaned Bellabeat data
+bellabeat <- read.csv("bellabeat_cleaned_data.csv")
+
+# Convert date column
+bellabeat$date <- as.Date(bellabeat$date)
+
+# Summary statistics
+summary(bellabeat)
+
+# Average steps and calories
+avg_metrics <- bellabeat %>%
+  summarise(
+    avg_steps = mean(total_steps),
+    avg_calories = mean(calories),
+    avg_sedentary = mean(sedentary_minutes)
+  )
+
+print(avg_metrics)
+
+# Activity vs Calories relationship
+ggplot(bellabeat, aes(x = total_steps, y = calories)) +
+  geom_point(color = "blue") +
+  geom_smooth(method = "lm", se = FALSE) +
+  labs(
+    title = "Steps vs Calories Burned",
+    x = "Total Steps",
+    y = "Calories Burned"
+  )
+
+# Sedentary time distribution
+ggplot(bellabeat, aes(x = sedentary_minutes)) +
+  geom_histogram(bins = 10, fill = "green") +
+  labs(
+    title = "Distribution of Sedentary Minutes",
+    x = "Sedentary Minutes",
+    y = "Frequency"
+  )

@@ -1,0 +1,16 @@
+-- Subquery: orders with sales above average
+SELECT *
+FROM orders
+WHERE sales > (
+    SELECT AVG(sales) FROM orders
+);
+
+-- CTE: calculate total sales by region
+WITH region_sales AS (
+    SELECT region, SUM(sales) AS total_sales
+    FROM orders
+    GROUP BY region
+)
+SELECT *
+FROM region_sales
+WHERE total_sales > 1000;

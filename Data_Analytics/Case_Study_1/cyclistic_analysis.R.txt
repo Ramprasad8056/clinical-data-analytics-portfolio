@@ -1,0 +1,28 @@
+library(tidyverse)
+
+# Load data
+cyclistic <- read.csv("cyclistic_cleaned_data.csv")
+
+# Convert date columns
+cyclistic$started_at <- as.POSIXct(cyclistic$started_at)
+cyclistic$ended_at <- as.POSIXct(cyclistic$ended_at)
+
+# Calculate ride length
+cyclistic$ride_length <- difftime(cyclistic$ended_at, cyclistic$started_at, units = "mins")
+
+# Summary by user type
+summary_data <- cyclistic %>%
+  group_by(member_casual) %>%
+  summarise(
+    avg_ride_length = mean(as.numeric(ride_length), na.rm = TRUE),
+    total_rides = n()
+  )
+
+print(summary_data)
+
+# Visualization
+ggplot(cyclistic, aes(x = member_casual, y = as.numeric(ride_length))) +
+  geom_boxplot() +
+  labs(title = "Ride Length by User Type",
+       x = "User Type",
+       y = "Ride Length (minutes)")

@@ -1,0 +1,21 @@
+library(tidyverse)
+
+sales_data <- read.csv("dataset_healthcare_sales.csv")
+
+# Key insights
+insights <- sales_data %>%
+  group_by(category) %>%
+  summarise(
+    total_sales = sum(sales),
+    total_profit = sum(profit),
+    avg_profit_margin = mean(profit / sales)
+  )
+
+print(insights)
+
+# Identify top performing category
+top_category <- insights %>%
+  arrange(desc(total_profit)) %>%
+  slice(1)
+
+print(top_category)

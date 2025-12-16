@@ -1,0 +1,21 @@
+-- Join orders with products
+SELECT 
+    o.order_id,
+    o.order_date,
+    o.region,
+    p.product_name,
+    p.category,
+    o.sales,
+    o.profit
+FROM orders o
+INNER JOIN products p
+ON o.product_id = p.product_id;
+
+-- Total sales by product category
+SELECT 
+    p.category,
+    SUM(o.sales) AS total_sales
+FROM orders o
+JOIN products p
+ON o.product_id = p.product_id
+GROUP BY p.category;

@@ -1,0 +1,21 @@
+library(tidyverse)
+
+sales_data <- read.csv("dataset_healthcare_sales.csv")
+
+# Bar plot: Sales by Region
+ggplot(sales_data, aes(x = region, y = sales)) +
+  geom_bar(stat = "sum", fill = "steelblue") +
+  labs(
+    title = "Total Sales by Region",
+    x = "Region",
+    y = "Sales"
+  )
+
+# Boxplot: Profit by Category
+ggplot(sales_data, aes(x = category, y = profit)) +
+  geom_boxplot(fill = "lightgreen") +
+  labs(
+    title = "Profit Distribution by Category",
+    x = "Category",
+    y = "Profit"
+  )

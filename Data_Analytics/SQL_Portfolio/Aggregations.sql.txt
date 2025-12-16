@@ -1,0 +1,20 @@
+-- Total sales by region
+SELECT region, SUM(sales) AS total_sales
+FROM orders
+GROUP BY region;
+
+-- Average profit by region
+SELECT region, AVG(profit) AS avg_profit
+FROM orders
+GROUP BY region;
+
+-- Total quantity sold by product
+SELECT product_id, SUM(quantity) AS total_quantity
+FROM orders
+GROUP BY product_id;
+
+-- Regions with total sales above 1000
+SELECT region, SUM(sales) AS total_sales
+FROM orders
+GROUP BY region
+HAVING SUM(sales) > 1000;

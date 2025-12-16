@@ -1,0 +1,17 @@
+-- View all orders
+SELECT * FROM orders;
+
+-- Filter orders from North region
+SELECT *
+FROM orders
+WHERE region = 'North';
+
+-- Orders with sales greater than 600
+SELECT *
+FROM orders
+WHERE sales > 600;
+
+-- Sort orders by profit (descending)
+SELECT *
+FROM orders
+ORDER BY profit DESC;

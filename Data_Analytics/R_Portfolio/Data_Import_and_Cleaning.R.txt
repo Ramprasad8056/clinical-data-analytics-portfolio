@@ -1,0 +1,17 @@
+library(tidyverse)
+
+# Import dataset
+sales_data <- read.csv("dataset_healthcare_sales.csv")
+
+# Convert date column
+sales_data$order_date <- as.Date(sales_data$order_date)
+
+# Check structure
+str(sales_data)
+
+# Add profit margin column
+sales_data <- sales_data %>%
+  mutate(profit_margin = profit / sales)
+
+# Check for missing values
+colSums(is.na(sales_data))

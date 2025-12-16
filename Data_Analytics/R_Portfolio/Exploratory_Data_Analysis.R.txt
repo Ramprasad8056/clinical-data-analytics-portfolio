@@ -1,0 +1,20 @@
+library(tidyverse)
+
+sales_data <- read.csv("dataset_healthcare_sales.csv")
+
+# Summary statistics
+summary(sales_data)
+
+# Sales by region
+sales_by_region <- sales_data %>%
+  group_by(region) %>%
+  summarise(total_sales = sum(sales))
+
+print(sales_by_region)
+
+# Profit by category
+profit_by_category <- sales_data %>%
+  group_by(category) %>%
+  summarise(total_profit = sum(profit))
+
+print(profit_by_category)
