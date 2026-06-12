@@ -1,0 +1,8 @@
+{
+  "bundle": "t004_rain_stats_output",
+  "source_file": "SAS_Projects/SAS_Procedures/rain_statistics_by_year_park.sas",
+  "source_blob_sha": "8125a0d6cd7939c6e9a9cfd5c2e7e4c577633e17",
+  "source_commit": "8dc01ace25d573105b58cf525b03f2c8505f20fe",
+  "tier": "real_data",
+  "notes": "Author's PROC MEANS NOPRINT with WHERE Precip ne 0, CLASS Name Year, WAYS 2, OUTPUT OUT= N=RainDays SUM=TotalRain, then a labeled NOOBS PROC PRINT. Bundled a 12-row PG1.NP_WESTWEATHER-shaped precip sample. Both steps and all labels are the author's, unmodified."
+}

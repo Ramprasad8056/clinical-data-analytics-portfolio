@@ -1,0 +1,8 @@
+{
+  "bundle": "t007_np_summary_compute",
+  "source_file": "SAS_Projects/SAS_Basics/basic_sas_statements_practice.sas",
+  "source_blob_sha": "9be331cb4667fb812b8c0a189d04dc37bf8d4b01",
+  "source_commit": "8dc01ace25d573105b58cf525b03f2c8505f20fe",
+  "tier": "real_data",
+  "notes": "Author's DATA step over PG1.NP_SUMMARY: KEEP list, computed SqMiles=Acres*.0015625, Camping=sum(OtherCamping,TentCampers,RVCampers,BackcountryCampers), and FORMAT (comma6./comma10.). Bundled a 5-row NP_SUMMARY-shaped sample; a PROC PRINT was added to view the result. The DATA step and all its statements are the author's, unmodified."
+}

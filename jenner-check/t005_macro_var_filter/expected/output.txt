@@ -1,0 +1,23 @@
+                                                   The FREQ Procedure
+
+                                       Cumulative    Cumulative
+Abundance    Frequency    Percent     Frequency      Percent
+------------------------------------------------------------------
+Abundant             1     25.00            1        25.00
+Common               1     25.00            2        50.00
+Rare                 1     25.00            3        75.00
+Uncommon             1     25.00            4       100.00
+
+                                                 Cumulative    Cumulative
+Conservation_Status    Frequency    Percent     Frequency      Percent
+----------------------------------------------------------------------------
+Endangered                     1     25.00            1        25.00
+Least Concern                  3     75.00            4       100.00
+
+  Obs  SPECIES_ID  CATEGORY    SCIENTIFIC_NAME      COMMON_NAMES
+-----  ----------  --------  -----------------  ----------------
+    1  ZION-0001   Bird      Buteo jamaicensis  Red-tailed Hawk
+    2  ZION-0002   Bird      Corvus corax       Common Raven
+    3  ZION-0003   Bird      Aquila chrysaetos  Golden Eagle
+    4  ZION-0005   Bird      Falco peregrinus   Peregrine Falcon
+

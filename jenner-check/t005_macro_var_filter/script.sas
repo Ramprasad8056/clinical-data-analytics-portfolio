@@ -1,0 +1,10 @@
+%LET ParkCode = ZION;
+%LET SpeciesCat = Bird;
+proc freq data=work.np_species;
+where Species_ID like "&parkcode.%" and Category="&SpeciesCat.";
+tables abundance conservation_status;
+run;
+proc print data=work.np_species;
+where Species_ID like "&parkcode.%" and Category="&SpeciesCat.";
+var Species_ID Category Scientific_Name Common_Names;
+run;

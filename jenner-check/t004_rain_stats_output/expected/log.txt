@@ -1,0 +1,20 @@
+Jenner 0.1.0 (Unlicensed - limited to 100 observations)
+Get a license at https://jenneranalytics.com/license
+
+NOTE: Option OBS changed to 100.
+NOTE: DATA work.np_westweather
+
+NOTE: Processing inline DATALINES (12 lines)
+
+NOTE: Read 12 rows from DATALINES.
+NOTE: Wrote work.np_westweather (12 rows, 3 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC MEANS
+NOTE: Output dataset rainstats has 4 observations and 6 variables.
+NOTE: PROC MEANS statement used.
+NOTE: Option TITLE changed to Rain Statistics by Year and Park.
+NOTE: PROC PRINT data=rainstats
+
+NOTE: PROC PRINT completed: 4 observations printed, 4 variables

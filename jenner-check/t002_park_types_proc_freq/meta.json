@@ -1,0 +1,8 @@
+{
+  "bundle": "t002_park_types_proc_freq",
+  "source_file": "SAS_Projects/SAS_Procedures/park_types_by_region_proc_freq.sas",
+  "source_blob_sha": "69d914e0c08873346f6aa513a7c172d0df2190e5",
+  "source_commit": "8dc01ace25d573105b58cf525b03f2c8505f20fe",
+  "tier": "real_data",
+  "notes": "Author's PROC FREQ crosstab Type*Region with ORDER=FREQ, CROSSLIST, and PLOTS=FREQPLOT(groupby=row scale=percent orient=horizontal). Bundled a 20-row PG1.NP_CODELOOKUP-shaped sample (Type x Region) with park-type names carrying embedded spaces so the author's WHERE Type IN (...) list matches. The author's crosstab options and freqplot are unmodified."
+}

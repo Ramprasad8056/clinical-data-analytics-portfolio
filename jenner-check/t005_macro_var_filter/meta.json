@@ -1,0 +1,8 @@
+{
+  "bundle": "t005_macro_var_filter",
+  "source_file": "SAS_Projects/SAS_Proc_SQL/macro_variables_usage.sas",
+  "source_blob_sha": "8d55e0d7972b3e08a9b4cc78a82e8f5c86040aa7",
+  "source_commit": "8dc01ace25d573105b58cf525b03f2c8505f20fe",
+  "tier": "real_data",
+  "notes": "Author defines two macro variables (%LET ParkCode=ZION, %LET SpeciesCat=Bird) and uses them in PROC FREQ and PROC PRINT WHERE clauses: Species_ID like \"&parkcode.%\" and Category=\"&SpeciesCat.\". Bundled a 7-row PG1.NP_SPECIES-shaped sample (4 Zion birds). Both steps and the macro references are the author's, unmodified."
+}

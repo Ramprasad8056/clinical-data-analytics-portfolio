@@ -1,0 +1,8 @@
+{
+  "bundle": "t001_shoes_netsales",
+  "source_file": "SAS_Projects/SAS_Basics/sashelp_shoes_analysis.sas",
+  "source_blob_sha": "caacac8cb0ad0f424db1395e45c7972c9d001472",
+  "source_commit": "8dc01ace25d573105b58cf525b03f2c8505f20fe",
+  "tier": "real_data",
+  "notes": "Author's DATA step computes netsales = Sales - Return over SASHELP.SHOES. Bundled a 13-row SASHELP.SHOES-shaped sample (Region/Product/Subsidiary/Stores/Sales/Inventory/Return) so the SET source points at it; the netsales computation and PROC PRINT are the author's, unmodified."
+}

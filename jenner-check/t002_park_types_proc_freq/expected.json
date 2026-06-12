@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-06-12T12:17:03.815422Z",
+  "_captured_run_id": "r_019ebbc3342f7a81b25d05ad8b8fe628",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote work.np_codelookup (20 rows, 2 columns).",
+    "NOTE: ODS plot written: freq_mosaic_type_region.spec.json",
+    "NOTE: Option TITLE changed to Selected Park Types by Region."
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

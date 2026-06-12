@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-06-12T12:17:03.969238Z",
+  "_captured_run_id": "r_019ebbc32e7973c2b698fb8f2f9a639d",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote work.shoes (13 rows, 8 columns).",
+    "NOTE: PROC PRINT completed: 10 observations printed, 5 variables",
+    "NOTE: Read 13 rows from work.shoes_src."
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}
