@@ -1,0 +1,8 @@
+{
+  "bundle": "t003_weather_proc_means",
+  "source_file": "SAS_Projects/SAS_Procedures/proc_means_weather_by_year_park.sas",
+  "source_blob_sha": "447725f3b46e0194048e7f0a464539b363b6e3dc",
+  "source_commit": "8dc01ace25d573105b58cf525b03f2c8505f20fe",
+  "tier": "real_data",
+  "notes": "Author's PROC MEANS with CLASS Year Name, four analysis variables (Precip Snow TempMin TempMax), MEAN MIN MAX, MAXDEC=2. Bundled a 10-row PG1.NP_WESTWEATHER-shaped sample with multiple rows per Year x Name. The author's PROC MEANS statement is unmodified."
+}

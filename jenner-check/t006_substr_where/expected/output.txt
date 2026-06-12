@@ -1,0 +1,10 @@
+
+  Obs   NAME  BASIN  SEASON
+-----  -----  -----  ------
+    1  Iniki  EP       1992
+    2  Omar   WP       1992
+    3  Val    SP       1992
+    4  Keli   SP       1997
+    5  Pam    WP       2015
+    6  Nina   EP       1985
+

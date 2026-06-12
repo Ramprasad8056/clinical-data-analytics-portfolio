@@ -1,0 +1,16 @@
+
+  Obs  REGION       PRODUCT  SALES  RETURN  NETSALES
+-----  ------  ------------  -----  ------  --------
+    1  Africa  Boot          29761     769     28992
+    2  Africa  Men's_Casual  67242    2284     64958
+    3  Africa  Men's_Dress   76793    2433     74360
+    4  Africa  Sandal        62819    1861     60958
+    5  Africa  Slipper       68641    1771     66870
+    6  Asia    Boot           1996      18      1978
+    7  Asia    Men's_Casual  90526    3098     87428
+    8  Asia    Men's_Dress   86766    2262     84504
+    9  Asia    Sandal        22250     595     21655
+   10  Canada  Boot           4846      90      4756
+
+... 3 more observations (showing 10 of 13)
+

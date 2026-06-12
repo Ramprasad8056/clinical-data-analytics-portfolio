@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-06-12T12:17:03.882653Z",
+  "_captured_run_id": "r_019ebbc3438c7670a59661870984713d",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Output dataset rainstats has 4 observations and 6 variables.",
+    "NOTE: Option TITLE changed to Rain Statistics by Year and Park.",
+    "NOTE: PROC PRINT completed: 4 observations printed, 4 variables"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

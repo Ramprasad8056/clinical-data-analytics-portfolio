@@ -1,0 +1,26 @@
+                                             Selected Park Types by Region                                              
+
+                                                   The FREQ Procedure
+
+Table of Type by Region
+
+Type        Region      Frequency    Percent    Row Pct    Col Pct
+----------------------------------------------------------------
+National Historic Site    IM                  1      7.14     25.00     25.00
+National Historic Site    MW                  1      7.14     25.00     50.00
+National Historic Site    NE                  1      7.14     25.00     50.00
+National Historic Site    PW                  0      0.00      0.00      0.00
+National Historic Site    SE                  1      7.14     25.00     25.00
+National Monument    IM                  1      7.14     25.00     25.00
+National Monument    MW                  0      0.00      0.00      0.00
+National Monument    NE                  1      7.14     25.00     50.00
+National Monument    PW                  1      7.14     25.00     50.00
+National Monument    SE                  1      7.14     25.00     25.00
+National Park    IM                  2     14.29     33.33     50.00
+National Park    MW                  1      7.14     16.67     50.00
+National Park    NE                  0      0.00      0.00      0.00
+National Park    PW                  1      7.14     16.67     50.00
+National Park    SE                  2     14.29     33.33     50.00
+
+Total Frequency = 14
+

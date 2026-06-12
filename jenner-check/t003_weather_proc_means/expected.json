@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-06-12T12:17:03.860405Z",
+  "_captured_run_id": "r_019ebbc33eb47da38ca321d110080251",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote work.np_westweather (10 rows, 6 columns).",
+    "NOTE: Option TITLE changed to Weather Statistics by Year and Park.",
+    "NOTE: PROC MEANS statement used."
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

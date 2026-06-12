@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-06-12T12:17:03.904080Z",
+  "_captured_run_id": "r_019ebbc349dd7872b1b732d11ec6e45e",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote work.np_species (7 rows, 6 columns).",
+    "NOTE: ODS plot written: freq_abundance.spec.json",
+    "NOTE: PROC PRINT completed: 4 observations printed, 4 variables"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

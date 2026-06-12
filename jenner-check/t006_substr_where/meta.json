@@ -1,0 +1,8 @@
+{
+  "bundle": "t006_substr_where",
+  "source_file": "SAS_Projects/SAS_Data_Step/substring_function_data_step.sas",
+  "source_blob_sha": "25c530502c76054a7f0bda5e2448c907fc95d93d",
+  "source_commit": "8dc01ace25d573105b58cf525b03f2c8505f20fe",
+  "tier": "real_data",
+  "notes": "Author's DATA step subsets PG1.STORM_SUMMARY with WHERE SUBSTR(Basin,2,1)=\"P\" (Pacific-basin storms) and DROPs several columns. Bundled a 10-row STORM_SUMMARY-shaped sample with a mix of basin codes. The SUBSTR WHERE, DROP and a PROC PRINT to view results are the author's logic."
+}

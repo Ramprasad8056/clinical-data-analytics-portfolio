@@ -1,0 +1,9 @@
+
+  Obs  REG     PARKNAME  DAYVISITS  OTHERLODGING    ACRES  SQMILES  CAMPING
+-----  ---  -----------  ---------  ------------  -------  -------  -------
+    1  IM   Yellowstone     806035         24197  2219791    3,468    7,240
+    2  PW   Yosemite       1234567         18900   761748    1,190    9,140
+    3  IM   GrandCanyon     999888         31200  1201647    1,878    5,250
+    4  SE   Everglades      320500          4100  1508538    2,357    2,500
+    5  AK   Denali          210000          2200  4740912    7,408    1,420
+

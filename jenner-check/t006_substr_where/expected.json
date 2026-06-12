@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-06-12T12:17:03.838960Z",
+  "_captured_run_id": "r_019ebbc3546275d0968ab56a00881997",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote work.storm_summary (10 rows, 9 columns).",
+    "NOTE: Wrote pacific (6 rows, 3 columns).",
+    "NOTE: PROC PRINT completed: 6 observations printed, 3 variables"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}
